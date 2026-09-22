@@ -1,11 +1,11 @@
 #include "parkett/version.h"
 
-#include <iostream>
+#include <print>
 
 int main()
 {
     const auto version = parkett::version();
-    std::cout << "Parkett Exchange Daemon version " << version << " running.\n";
+    std::println("Parkett Exchange Daemon version {} running.", version);
 
     return 0;
 }
