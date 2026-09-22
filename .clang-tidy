@@ -12,3 +12,4 @@ Checks: >
 
 WarningsAsErrors: ''
 HeaderFilterRegex: '.*/(core|exchanged|sim)/.*'
+ExcludeHeaderFilterRegex: '/_deps/'
