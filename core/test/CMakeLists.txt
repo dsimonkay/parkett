@@ -1,4 +1,5 @@
 add_executable(parkett_core_tests
+    types_test.cpp
     version_test.cpp
 )
 

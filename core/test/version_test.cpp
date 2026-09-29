@@ -2,7 +2,12 @@
 
 #include <catch2/catch_test_macros.hpp>
 
-TEST_CASE("version string is not empty", "[version]")
+namespace parkett::test
 {
-    REQUIRE(!parkett::version().empty());
+
+TEST_CASE("The version string is not empty.", "[version]")
+{
+    REQUIRE(!version().empty());
 }
+
+} // namespace parkett::test
